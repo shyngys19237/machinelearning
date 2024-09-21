@@ -1,0 +1,45 @@
+/* Стили для формы поиска */
+#search {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Стили для формы покупки */
+.purchase-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.purchase-form .input-field {
+    margin-bottom: 15px;
+}
+
+.purchase-form label {
+    color: black; /* Цвет текста меток */
+}
+
+.purchase-form button {
+    display: block;
+    margin-top: 20px;
+}
+
+/* Дополнительно, можно настроить стили для кнопок и текста */
+.btn.red {
+    background-color: #f44336;
+}
+
+.btn.green {
+    background-color: #4caf50;
+}
+
+/* Для изображения */
+img.aligning {
+    width: 100%; /* Задает ширину изображения */
+    max-width: 150px; /* Максимальная ширина изображения */
+    height: auto; /* Высота автоматически пропорциональна */
+    margin-bottom: 10px;
+}
+
